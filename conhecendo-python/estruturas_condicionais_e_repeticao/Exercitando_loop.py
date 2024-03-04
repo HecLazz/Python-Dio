@@ -45,4 +45,3 @@ for linha in lista_texto:
     valor = float(linha[poisicao_pv+1 : ])
     faturamento += valor
 print(faturamento)
-
