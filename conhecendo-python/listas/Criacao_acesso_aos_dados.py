@@ -139,3 +139,34 @@ linguagens = ["python", "js", "c", "java", "csharp"]
 
 print(linguagens.index("java"))
 print(linguagens.index("python"))
+
+# [].pop
+linguagens = ["python", "js", "c", "java", "csharp"]
+
+print(linguagem.pop())
+print(linguagem.pop())
+print(linguagem.pop())
+print(linguagem.pop(0))
+
+#[].remove
+linguagens = ["python", "js", "c", "java", "csharp"]
+
+linguagens.remove("c")
+print(linguagens)
+
+# [].reverse
+linguagens = ["python", "js", "c", "java", "csharp"]
+
+linguagens.reverse() # inverte a sequência da list
+print(linguagens)
+
+# [].sort -> ordenação 
+linguagens = ["python", "js", "c", "java", "csharp"]
+linguagens.sort() # ordenação alfabetica
+
+linguagens.sort(reverse=True) #
+
+linguagens = ["python", "js", "c", "java", "csharp"]
+
+numero = [n**2 if n > 6 else n for n in range(10) if n % 2 == 0]
+print(numero)
